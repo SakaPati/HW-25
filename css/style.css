@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.rbg {
+  width: 600px;
+  height: 300px;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.red {
+  width: 125px;
+  height: 125px;
+  background-color: red;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+}
+.blue {
+  width: 125px;
+  height: 125px;
+  background-color: blue;
+  position: absolute;
+  top: 190px;
+  left: 190px;
+  z-index: 1;
+}
+.green {
+  width: 125px;
+  height: 125px;
+  background-color: green;
+  position: absolute;
+  top: 250px;
+  left: 250px;
+}
